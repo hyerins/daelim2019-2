@@ -8,12 +8,13 @@ ul {
     height: 30px;
     background: rgb(23, 24, 23);
     list-style: none;
-    padding-top: 15px;
+    padding-top: 15px 10px 8px;
+    margin: 0%;
 }
 
 ul li{
     float:left;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 ul li a {   
@@ -22,30 +23,17 @@ ul li a {
     font-weight: bold;
     text-decoration: none;
 }
-h1{
-    color:blue;
-    font-size: 30pt;
-}
 
-.xman{
-    text-align: center;
-    color:blue;
-    font-size: 30pt;
-}
-
-section div{
-display: inline-block;
-}
-
-.sec1{
-   margin-bottom: 110px;
-   background-color: antiquewhite;
-   text-align: center;
-}
-
+.home-title {
+    color:chartreuse;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
 .article-bg{
     background-color:gray;
-    color: rgb(255, 255, 255);
+    color:whitesmoke;
     text-align: center;
     height: 300px;
     padding: 15px;
@@ -64,7 +52,7 @@ display: inline-block;
 
   .article2-bg{
     background-color:lightgray;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     text-align: center;
     height: 300px;
     padding: 15px;
@@ -100,5 +88,21 @@ display: inline-block;
     -ms-border-radius: 5%;
     -o-vorder-radius: 5%;
     border-radius: 5%;
+}
+
+.article3-bg{
+    background-color:lightpink;
+    color:whitesmoke;
+    text-align: center;
+    height: 600px;
+    padding: 15px;
+}
+
+.article4-bg{
+    background-color:lightskyblue;
+    color:whitesmoke;
+    text-align: center;
+    height: 400px;
+    padding: 15px;
 }
     
