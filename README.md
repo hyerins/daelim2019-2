@@ -6,7 +6,6 @@
 3. css 적용
 4. css 초기화 ( v0.1.0 )
 5. 메뉴생성 ( v0.2.0 )
-6. 1st article : margin, padding, 
-border test( v0.3.0 )
-v0.5.0
+6. 1st article : margin, padding,(v0.3.0) 
+7. audio,video 태그, table, 영역 나누기(v0.6.0) 
 
