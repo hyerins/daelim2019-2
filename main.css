@@ -105,4 +105,48 @@ ul li a {
     height: 400px;
     padding: 15px;
 }
-    
+
+.table1{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;  
+}
+
+.table tr, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.article5-bg{
+    height: 300px;
+    padding: 15px;
+    background-color: lightsteelblue;
+    color:black;
+    text-align: center;
+}
+
+.left {
+    text-align: right;
+    height: 300px;
+    width: 50%;
+    float: left;
+    background-color: lightseagreen;
+}
+
+.left div{
+    margin: 100px 20px 0px 0px;
+}
+
+.right{
+    text-align: left;
+    height: 300px;
+    width: 50%;
+    float: right;
+    background-color: lightsalmon;
+}
+
+.right div{
+    margin: 100px 0px 0px 20px;
+}
