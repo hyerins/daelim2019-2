@@ -1,6 +1,6 @@
 /*
-* index.html ver0.6.0
-* Update : 2019.09.27
+* index.html ver0.7.0
+* Update : 2019.10.02
 * Author : Hyerin.Jeong
 */
 ul {
@@ -18,10 +18,11 @@ ul li{
 }
 
 ul li a {   
-    font-size: 17px;
+    font-size: 30px;
     color: lightgray;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .home-title {
@@ -150,3 +151,53 @@ ul li a {
 .right div{
     margin: 100px 0px 0px 20px;
 }
+
+.grid-container {
+    background-color:lightslategray;
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: lightsteelblue;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.item2 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.item3{
+    grid-column: 3;
+    grid-row: 2 / span 2;
+}
+
+.item10 {
+    grid-column: 2 / span 2;
+    grid-row: 5;
+}
+
+.aside-bg {
+    border: 5px solid orange;
+    height: 200px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+}
+
+.footer-bg {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: gray;
+    height: 25px;
+}
+
