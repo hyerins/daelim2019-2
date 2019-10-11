@@ -3,9 +3,76 @@
 * Update : 2019.10.02
 * Author : Hyerin.Jeong
 */
-ul {
+
+.full-bg{
+    background: url(./images/sunset.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    height: 30px;
+    display: table;
+}
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-title{
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size:  35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(71, 61, 139, 0.897);
+    color: white;
+}
+
+.header-sub{
+    font-size: 20px;
+    color: rgb(222, 237, 245);
+}
+
+.ghost-btn {
+    margin-top: 100px;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
+    color: #000;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .ghost-btn {
+    color: #fff;
+    border: 3px solid rgb(105, 91, 201);
+    background-image: -webkit-linear-gradient(30deg, rgb(105, 91, 201) 50%, transparent 50%);
+    background-image: linear-gradient(30deg, rgb(105, 91, 201) 50%, transparent 50%);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .ghost-btn:hover {
+    background-position: 100%;
+    color: rgb(105, 91, 201);
+  }
+  
+
+
+
+/* main menu */
+/*ul {
+    width: 100%;
+    height: 50px;
     background: rgb(23, 24, 23);
     list-style: none;
     padding-top: 15px 10px 8px;
@@ -13,24 +80,34 @@ ul {
 }
 
 ul li{
+    padding-top: 8px;  
     float:left;
     margin-right: 10px;
 }
 
-ul li a {   
+ul li a { 
     font-size: 30px;
     color: lightgray;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Nanum Pen Script', cursive;
-}
+    margin-right: 40px;
 
-.home-title {
+    .home-title {
     color:chartreuse;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     margin-right: 50px;
   }
+}*/
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:  rgb(109,109,109);
+}
+
+
   
 .article-bg{
     background-color:gray;
