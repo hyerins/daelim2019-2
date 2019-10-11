@@ -10,7 +10,7 @@
 6. 1st article : margin, padding,(v0.3.0) 
 7. audio,video 태그, table, 영역 나누기(v0.6.0) 
 8. css grid, 메뉴이동(v0.7.0)
-9. ullscreen background header, 상단 메뉴 고정, 드롭다운메뉴(css), ghost button(v0.8.0)
+9. fullscreen background header, 상단 메뉴 고정, 드롭다운메뉴(css), ghost button(v0.8.0)
 
 ## 2019.10.02
 1. 주석 추가 <br>
