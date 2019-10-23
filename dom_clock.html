@@ -1,0 +1,27 @@
+<!--
+* dom_clock.html ver0.1.0
+* Update : 2019.10.23
+* Author : Hyerin.Jeong
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Dom clock</title>
+  <script>
+    //이벤트 연결
+    window.onload = function () {
+      //문서 객체 선택
+      var clock = document.getElementById('clock');
+      //1초마다 함수를 실행
+      setInterval(function () {
+        var now =  new Date();
+        clock.innerHTML = now.toString();
+      }, 1000);
+    };
+  </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+</body>
+</html>
