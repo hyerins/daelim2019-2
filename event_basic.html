@@ -1,0 +1,27 @@
+<!--
+* jquerytest.html ver0.1.0
+* Update : 2019.10.25
+* Author : Hyerin.Jeong
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+     $(document).ready(function () {
+       $('button').click(function () {
+         $('#page').fadeToggle('slow');
+       });
+      });  
+  </script>
+</head>
+<body>
+    <button>Toggle Show</button>
+    <div id="page">
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</body>
+</html>

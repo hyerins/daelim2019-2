@@ -1,0 +1,28 @@
+<!--
+* dom_basic2.html ver0.1.0
+* Update : 2019.10.25
+* Author : Hyerin.Jeong
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>animate_basic</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#box').css({
+        width: 100,
+        height: 100,
+        background: 'red'
+      }).animate({
+        width: 300,
+        opacity: 0.5,
+      }, 500);
+      });
+  </script>
+</head>
+<body>
+  <div id="box"></div>
+</body>
+</html>
