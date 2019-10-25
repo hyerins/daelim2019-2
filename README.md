@@ -1,11 +1,23 @@
 # 정혜린 : daelim2019-2 project
 
+## 2019.10.25
+#### dom_basic2.html, jquerytest.html, jqueryControl.html, jquerytest2.html, event_basic.html, animate_basic, animation_frame.html 생성
+1. 현재시간 한국어로 나타내기
+2. 문서 객체 선택 및 속성 추출
+3. 이미지 연결
+4. 이벤트(마우스 드래그, 클릭)생성
+5. 태그 사라졌다가 나타는 효과
+6. 애니메이션 효과
+7. 애니메이션 프레임 효과
+8. 메뉴3(jquery)연결 (index.html)
+
+
 ## 2019.10.23
 #### dom_fault.html, dom_basic.html , dom_clock 생성
 1. 문서 객체 선택
 2. 내부 글자 변경
 3. 이벤트 연결
-4. 메뉴 연결
+4. 메뉴2(dom) 연결
 
 
 ## 2019.10.11
