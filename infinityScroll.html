@@ -1,0 +1,38 @@
+<!--
+* jquerytest.html ver0.1.0
+* Update : 2019.11.08
+* Author : Hyerin.Jeong
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>infinity scroll</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+      $(document).ready(function () {
+        var j=0;
+        var appendDocument = function () {
+        for (var i = 1; i < 20; i++) {
+          j++;
+          $('<h1>Infinity Scroll' + j + '</h1>').appendTo('body');
+        }
+      };
+
+      appendDocument();
+
+      $(window).scroll(function () {
+        var scrollHeight = $(window).scrollTop() + $(window).height();
+        var documentHeight = $(document).height();
+
+        if (scrollHeight == documentHeight) {
+          appendDocument();
+        }
+      });
+    });  
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
