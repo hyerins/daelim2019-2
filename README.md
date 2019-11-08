@@ -1,5 +1,14 @@
 # 정혜린 : daelim2019-2 project
 
+## 2019.11.08
+#### infinityScroll.html, backstretch.html, vegas.html, tubular.html  생성
+1. 무한 스크롤(옆에 숫자 무한대로 나타내기)
+2. 제이쿼리 플러그인 이용(사진 슬라이드)
+3. 제이쿼리 플러그인 이용(사진로딩, 영상 슬라이드)
+4. 제이쿼리 플러그인 이용(유튜브 영상을 배경으로)
+5. 단축키 제작(hyerin.html5.code-snippets)
+
+
 ## 2019.10.25
 #### dom_basic2.html, jquerytest.html, jqueryControl.html, jquerytest2.html, event_basic.html, animate_basic, animation_frame.html 생성
 1. 현재시간 한국어로 나타내기
