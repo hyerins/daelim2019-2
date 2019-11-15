@@ -1,5 +1,11 @@
 # 정혜린 : daelim2019-2 project
 
+## 2019.11.15
+#### bt_index.html
+1. 부트스트랩 연습(Favicon, Navbar, Buttons, Collapse, Modal, Carousel, Progress)
+2. 메뉴(Bootstrap)연결 (index.html)
+
+
 ## 2019.11.08
 #### infinityScroll.html, backstretch.html, vegas.html, tubular.html  생성
 1. 무한 스크롤(옆에 숫자 무한대로 나타내기)
@@ -7,6 +13,7 @@
 3. 제이쿼리 플러그인 이용(사진로딩, 영상 슬라이드)
 4. 제이쿼리 플러그인 이용(유튜브 영상을 배경으로)
 5. 단축키 제작(hyerin.html5.code-snippets)
+6. 메뉴(Plug-In)연결 (index.html)
 
 
 ## 2019.10.25
@@ -18,7 +25,7 @@
 5. 태그 사라졌다가 나타는 효과
 6. 애니메이션 효과
 7. 애니메이션 프레임 효과
-8. 메뉴3(jquery)연결 (index.html)
+8. 메뉴(jquery)연결 (index.html)
 
 
 ## 2019.10.23
@@ -26,7 +33,7 @@
 1. 문서 객체 선택
 2. 내부 글자 변경
 3. 이벤트 연결
-4. 메뉴2(dom) 연결
+4. 메뉴(dom) 연결
 
 
 ## 2019.10.11
